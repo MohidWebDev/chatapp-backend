@@ -31,7 +31,7 @@ const onlineUsers = {};
 // ─── Socket.io ───────────────────────────────────────────────────
 const io = new Server(server, {
   cors: {
-    origin: "*",
+    origin: "https://chatapp-frontend-sooty-nine.vercel.app/",
     methods: ["GET", "POST"],
     credentials: true,
   },
